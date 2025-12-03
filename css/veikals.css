@@ -1,0 +1,301 @@
+body {
+	margin: 0;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1046%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(17%2c 17%2c 67%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c267 C 76.8%2c290.2 230.4%2c418.6 384%2c383 C 537.6%2c347.4 614.4%2c69 768%2c89 C 921.6%2c109 998.4%2c452.2 1152%2c483 C 1305.6%2c513.8 1382.4%2c237.2 1536%2c243 C 1689.6%2c248.8 1843.2%2c458.2 1920%2c512L1920 1080L0 1080z' fill='rgba(13%2c 13%2c 51%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c1041 C 32%2c981.8 96%2c780.4 160%2c745 C 224%2c709.6 256%2c893 320%2c864 C 384%2c835 416%2c609.2 480%2c600 C 544%2c590.8 576%2c798.6 640%2c818 C 704%2c837.4 736%2c649.6 800%2c697 C 864%2c744.4 896%2c1071.4 960%2c1055 C 1024%2c1038.6 1056%2c628.8 1120%2c615 C 1184%2c601.2 1216%2c997.6 1280%2c986 C 1344%2c974.4 1376%2c538.8 1440%2c557 C 1504%2c575.2 1536%2c1041 1600%2c1077 C 1664%2c1113 1696%2c750.4 1760%2c737 C 1824%2c723.6 1888%2c955.4 1920%2c1010L1920 1080L0 1080z' fill='rgba(48%2c 46%2c 182%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1046'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+	font-family: Arial, sans-serif;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+
+.nav img {
+	height: 50px;
+}
+
+.nav button {
+	padding: 8px 16px;
+	border-radius: 12px;
+	border: none;
+	margin: 0 10px;
+}
+
+.nav button:hover {
+	background-color: #555;
+	color: white;
+}
+
+.pogas {
+	text-align: center;
+	gap: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.galvenais {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 100px 1fr 1fr;
+	gap: 20px;
+	padding: 20px;
+}
+
+.nosaukums {
+	grid-column: 1 / 5;
+	grid-row: 1 / 2;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+
+.merch-card1,
+.merch-card2,
+.merch-card3,
+.merch-card4,
+.merch-card5,
+.merch-card6,
+.merch-card7,
+.merch-card8 {
+	text-align: center;
+	color: black;
+	background-color: white;
+	border-radius: 15px;
+	padding: 20px;
+	position: relative;
+	width: 280px;
+	height: 420px;
+	background: #ffffff;
+	overflow: hidden;
+  margin: auto;
+}
+
+.merch-card1 {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+}
+
+.merch-card2 {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+
+.merch-card3 {
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+}
+
+.merch-card4 {
+	grid-column: 4 / 5;
+	grid-row: 2 / 3;
+}
+
+.merch-card5 {
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+}
+
+.merch-card6 {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+}
+
+.merch-card7 {
+	grid-column: 3 / 4;
+	grid-row: 3 / 4;
+}
+
+.merch-card8 {
+	grid-column: 4 / 5;
+	grid-row: 3 / 4;
+}
+
+.input-box input {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	padding: 0 15px;
+	font-size: 17px;
+	font-weight: 400;
+	color: #333;
+	border: 1.5px solid #C7BEBE;
+	border-bottom-width: 2.5px;
+	border-radius: 6px;
+	transition: all 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+	border-color: #233870;
+}
+
+.input-box.button input {
+	color: #fff;
+	letter-spacing: 1px;
+	border: none;
+	background: #233870;
+	cursor: pointer;
+}
+
+.input-box.button input:hover {
+	background: #233870;
+}
+
+.merch-card1::before,
+.merch-card2::before,
+.merch-card3::before,
+.merch-card4::before,
+.merch-card5::before,
+.merch-card6::before,
+.merch-card7::before,
+.merch-card8::before {
+	content: "";
+	position: absolute;
+	top: -50%;
+	width: 100%;
+	height: 100%;
+	background: #233870;
+	transform: skewY(345deg);
+	transition: 0.5s;
+}
+
+.merch-card1:hover::before,
+.merch-card2:hover::before,
+.merch-card3:hover::before,
+.merch-card4:hover::before,
+.merch-card5:hover::before,
+.merch-card6:hover::before,
+.merch-card7:hover::before,
+.merch-card8:hover::before {
+	top: -70%;
+	transform: skewY(390deg);
+}
+
+.merch-card1 .imgBox,
+.merch-card2 .imgBox,
+.merch-card3 .imgBox,
+.merch-card4 .imgBox,
+.merch-card5 .imgBox,
+.merch-card6 .imgBox,
+.merch-card7 .imgBox,
+.merch-card8 .imgBox {
+	position: relative;
+	width: 100%;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	z-index: 1;
+}
+
+.merch-card1 .imgBox img,
+.merch-card2 .imgBox img,
+.merch-card3 .imgBox img,
+.merch-card4 .imgBox img,
+.merch-card5 .imgBox img,
+.merch-card6 .imgBox img,
+.merch-card7 .imgBox img,
+.merch-card8 .imgBox img {
+	max-width: 120px;
+	transition: 0.5s;
+}
+
+.merch-card1:hover .imgBox img,
+.merch-card2:hover .imgBox img,
+.merch-card3:hover .imgBox img,
+.merch-card4:hover .imgBox img,
+.merch-card5:hover .imgBox img,
+.merch-card6:hover .imgBox img,
+.merch-card7:hover .imgBox img,
+.merch-card8:hover .imgBox img {
+	transform: scale(0.7);
+}
+
+.merch-card1 .contentBox,
+.merch-card2 .contentBox,
+.merch-card3 .contentBox,
+.merch-card4 .contentBox,
+.merch-card5 .contentBox,
+.merch-card6 .contentBox,
+.merch-card7 .contentBox,
+.merch-card8 .contentBox {
+	position: relative;
+	padding: 20px;
+	z-index: 2;
+}
+
+.merch-card1 .contentBox h3,
+.merch-card2 .contentBox h3,
+.merch-card3 .contentBox h3,
+.merch-card4 .contentBox h3,
+.merch-card5 .contentBox h3,
+.merch-card6 .contentBox h3,
+.merch-card7 .contentBox h3,
+.merch-card8 .contentBox h3 {
+	font-size: 18px;
+	color: #000;
+	margin-top: 60px;
+	font-weight: 600;
+}
+
+.merch-card1 .price,
+.merch-card2 .price,
+.merch-card3 .price,
+.merch-card4 .price,
+.merch-card5 .price,
+.merch-card6 .price,
+.merch-card7 .price,
+.merch-card8 .price {
+	font-size: 24px;
+	color: #000;
+	margin-top: 10px;
+	font-weight: 700;
+}
+
+.merch-card1 .price small,
+.merch-card2 .price small,
+.merch-card3 .price small,
+.merch-card4 .price small,
+.merch-card5 .price small,
+.merch-card6 .price small,
+.merch-card7 .price small,
+.merch-card8 .price small {
+	font-size: 16px;
+}
+
+.merch-card1 .buy,
+.merch-card2 .buy,
+.merch-card3 .buy,
+.merch-card4 .buy,
+.merch-card5 .buy,
+.merch-card6 .buy,
+.merch-card7 .buy,
+.merch-card8 .buy {
+	position: relative;
+	top: 80px;
+	opacity: 0;
+	padding: 10px 25px;
+	margin-top: 15px;
+	color: #fff;
+	background: #233870;
+	text-decoration: none;
+	border-radius: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+
+.merch-card1:hover .buy,
+.merch-card2:hover .buy,
+.merch-card3:hover .buy,
+.merch-card4:hover .buy,
+.merch-card5:hover .buy,
+.merch-card6:hover .buy,
+.merch-card7:hover .buy,
+.merch-card8:hover .buy {
+	top: 20px;
+	opacity: 1;
+}

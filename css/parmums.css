@@ -1,0 +1,135 @@
+body {
+    margin: 0; 
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1046%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(17%2c 17%2c 67%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c267 C 76.8%2c290.2 230.4%2c418.6 384%2c383 C 537.6%2c347.4 614.4%2c69 768%2c89 C 921.6%2c109 998.4%2c452.2 1152%2c483 C 1305.6%2c513.8 1382.4%2c237.2 1536%2c243 C 1689.6%2c248.8 1843.2%2c458.2 1920%2c512L1920 1080L0 1080z' fill='rgba(13%2c 13%2c 51%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c1041 C 32%2c981.8 96%2c780.4 160%2c745 C 224%2c709.6 256%2c893 320%2c864 C 384%2c835 416%2c609.2 480%2c600 C 544%2c590.8 576%2c798.6 640%2c818 C 704%2c837.4 736%2c649.6 800%2c697 C 864%2c744.4 896%2c1071.4 960%2c1055 C 1024%2c1038.6 1056%2c628.8 1120%2c615 C 1184%2c601.2 1216%2c997.6 1280%2c986 C 1344%2c974.4 1376%2c538.8 1440%2c557 C 1504%2c575.2 1536%2c1041 1600%2c1077 C 1664%2c1113 1696%2c750.4 1760%2c737 C 1824%2c723.6 1888%2c955.4 1920%2c1010L1920 1080L0 1080z' fill='rgba(48%2c 46%2c 182%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1046'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+font-family: Arial, sans-serif;  
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav img {
+    height: 50px;
+}
+
+.nav button {
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: none;   
+    margin: 0 10px; 
+}
+
+.nav button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.pogas {
+    text-align: center;
+    gap: 20px; 
+    display: flex; 
+    justify-content: center; 
+}
+
+
+
+.Roberts1, .Roberts2, .Arno, .Kārlis, .Lelde, .Ralfs {
+    position: relative;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-color: white;
+    grid-column: 2/5;
+}
+
+
+.Roberts1::before,
+.Roberts2::before,
+.Arno::before,
+.Kārlis::before,
+.Lelde::before,
+.Ralfs::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    z-index: -2;
+    border-radius: 18px;
+    background: linear-gradient(90deg, rgba(68,0,255,0.9));
+    background-size: 200% 200%;
+    filter: blur(8px);
+    opacity: 0.95;
+    animation: shimmer 4s linear infinite;
+}
+
+
+.Roberts1::after,
+.Roberts2::after,
+.Arno::after,
+.Kārlis::after,
+.Lelde::after,
+.Ralfs::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 12px;
+    background: white;
+}
+
+
+@keyframes shimmer {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+.Roberts1 img,
+.Roberts2 img,
+.Arno img,
+.Kārlis img,
+.Lelde img,
+.Ralfs img {
+    width: auto;
+    max-width: 350px;
+    border-radius: 12px;
+    justify-self: center;
+}
+
+
+.piedzimsana {
+    padding: 80px ;
+    text-align: center;
+    background-color: white;
+    margin: 0 300px 60px 300px;
+    border-radius: 12px;
+    
+    
+}
+.galvenais{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.pogas{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+
