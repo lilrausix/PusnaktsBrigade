@@ -12,25 +12,25 @@
 <body>
     <div class="nav">
         <div class="logo">
-            <img src="bildes/logo.png" alt="PB logo" style="width:50px; height:auto;">
+        <img src="bildes/logo.png" alt="PB logo" style="width:70px; height:auto;">
         </div>
-        <div class="pogas">
-            <a href="index.php">
-                <button type="button">Sākums</button>
-            </a>
-            <a href="parmums.php">
-                <button type="button">Par mums</button>
-            </a>
-            <a href="kontakti.php">
-                <button type="button">Kontakti</button>
-            </a>
-            <a href="veikals.php">
-                <button type="button">Veikals</button>
-            </a>
-            <a href="reg.php">
-                <button type="button">Reģistrēšanās</button>
-            </a>
-        </div>
+       
+        <a href="index.php">
+            <button type="button">Sākums</button>
+        </a>
+        <a href="parmums.php">
+            <button type="button">Par mums</button>
+        </a>
+        <a href="kontakti.php">
+        <button type="button">Kontakti</button>
+        </a>
+        <a href="veikals.php">
+            <button type="button">Veikals</button>
+        </a>
+        <a href="reg.php">
+            <button type="button" class="reg">Reģistrēšanās</button>
+        </a>
+        
 
     </div>
 
