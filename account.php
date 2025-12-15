@@ -13,20 +13,21 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profils</title>
-    <link rel="stylesheet" href="css/account.css">
+    <title>Pusnkats Brigādes veikals</title>
+    <link rel="stylesheet" href="css/veikals.css">
     <link rel="icon" type="image/x-icon" href="bildes/logo.png">
 </head>
+
 <body>
-<div class="nav">
+    <div class="nav">
         <div class="logo">
-        <img src="bildes/logo.png" alt="PB logo" style="width:50px; height:auto;">
+        <img src="bildes/logo.png" alt="PB logo" style="width:70px; height:auto;">
         </div>
-        <h2>Sveiks <?php echo $_SESSION['user']; ?></h2>
-        <div class="pogas">
+       
         <a href="index.php">
             <button type="button">Sākums</button>
         </a>
@@ -39,15 +40,22 @@
         <a href="veikals.php">
             <button type="button">Veikals</button>
         </a>
-        <a href="index.php">
-            <button type="button">Iziet</button>
+        <a href="reg.php">
+            <button type="button" class="reg">Reģistrēšanās</button>
         </a>
+        
 
     </div>
 
+    <div class="galvenais">
+        <div class="nosaukums">
+        <h1>Sveiks <?php echo $_SESSION['user']; ?></h1>
+        </div>
+    </div>
 
-
+        
 
 
 </body>
+
 </html>

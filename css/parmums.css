@@ -130,12 +130,30 @@ font-family: Arial, sans-serif;
 .galvenais{
     display : grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.galvenais h1{
+ font-size: 40px;
+}
+
+.galvenais p{
+    font-size:20px;
+    
+}
+
+.galvenais h2{
+    font-size: 30px;
+}
+
+
+
 .pogas{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
     
 }
+
 
 

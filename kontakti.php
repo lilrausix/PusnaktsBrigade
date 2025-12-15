@@ -52,6 +52,7 @@
             <p>Grupas attīstības nolūkos:</p>
             <p>Saņēmēja vārds: Roberts Eglītis</p>
             <p>IBAN: LV32UNLA0055000845812</p>
+            <h1>Pusnakts Brigādes laiks : 00:00</h1>
 
            
         </div>
