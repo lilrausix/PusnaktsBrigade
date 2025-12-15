@@ -53,3 +53,9 @@ font-family: Arial, sans-serif;
     grid-column: 1fr 1fr;
     grid-row: auto;
   }
+
+
+  .profile-pic{
+    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+  }
