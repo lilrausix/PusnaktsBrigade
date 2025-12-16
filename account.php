@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pusnkats Brigādes veikals</title>
-    <link rel="stylesheet" href="css/veikals.css">
+    <link rel="stylesheet" href="css/account.css">
     <link rel="icon" type="image/x-icon" href="bildes/logo.png">
   </head>
   <body>
@@ -35,9 +35,10 @@
       <a href="veikals.php">
         <button type="button">Veikals</button>
       </a>
-      <a href="reg.php">
-        <button type="button" class="reg">Reģistrēšanās</button>
+      <a href="account.php?logout=true">
+        <button type="button" class="logout-btn">Iziet no konta</button>
       </a>
+      
     </div>
     <div class="galvenais">
       <div class="nosaukums">
@@ -45,11 +46,10 @@
       </div>
       <div class="profile-pic">
         <label class="-label" for="file">
-          <span class="glyphicon glyphicon-camera"></span>
           <span>Nomaini profila attēlu</span>
         </label>
-        <input id="file" type="file" onchange="loadFile(event)" />
-        <img src="https://tse4.mm.bing.net/th/id/OIP.Z5BlhFYs_ga1fZnBWkcKjQHaHz?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" id="output" width="200" />
+        <input id="file" type="file" accept="image/*" onchange="loadFile(event)" />
+        <img src="https://www.pngarts.com/files/10/Default-Profile-Picture-PNG-Download-Image.png" id="output" alt="Profila attēls" width="200" />
       </div>
       <script>
         var loadFile = function(event) {
@@ -57,6 +57,7 @@
           image.src = URL.createObjectURL(event.target.files[0]);
         };
       </script>
+      
     </div>
   </body>
 </html>
