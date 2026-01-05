@@ -31,10 +31,10 @@
     <div class="bildes">
       <img src="bildes/bilde1.png" alt="Bilde1" style="max-width:400px;height:auto;">
       <img src="bildes/bilde2.png" alt="Bilde2" style="max-width:400px;height:auto;">
-      <img src="bildes/bilde3.png" alt="Bilde3" style="max-width:400px;height:auto;">
+      <img src="bildes/bilde3t.png" alt="Bilde3" style="max-width:400px;height:505px;">
       <img src="bildes/bilde4.png" alt="Bilde4" style="max-width:400px;height:auto;">
       <img src="bildes/bilde5.png" alt="Bilde5" style="max-width:400px;height:auto;">
-      <img src="bildes/bilde6.png" alt="Bilde6" style="max-width:400px;height:auto;">
+      <img src="bildes/bilde6t.png" alt="Bilde6" style="max-width:400px;height:auto;">
     </div>
     <div class="teksts">
       <h1>Pusnakts brigāde — kad klusums nav opcija</h1>

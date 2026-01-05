@@ -60,21 +60,21 @@
       </div>
       <div class="form-wrapper">
         <h2>Pieteikt pasākumu</h2>
-        <form action="#">
+        <form action="save_event.php" method="POST">
           <div class="input-box">
-            <input type="text" placeholder="E-pasts" required>
+        <input type="email" name="email" placeholder="E-pasts" required>
           </div>
           <div class="input-box">
-            <input type="text" placeholder="Telefona numumrs" required>
+        <input type="tel" name="phone" placeholder="Telefona numurs" required>
           </div>
           <div class="input-box">
-            <input type="text" placeholder="Pasākums/Tēma" required>
+        <input type="text" name="event" placeholder="Pasākums/Tēma" required>
           </div>
           <div class="input-box">
-            <textarea class="ziņa" placeholder="Ziņa" required></textarea>
+        <textarea class="ziņa" name="message" placeholder="Ziņa" required></textarea>
           </div>
           <div class="input-box button">
-            <input type="Submit" value="Sūtīt ziņojumu">
+        <input type="submit" value="Sūtīt ziņojumu">
           </div>
         </form>
       </div>
