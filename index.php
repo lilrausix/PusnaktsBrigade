@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakums</title>
-    <link rel="stylesheet" href="css/sakums.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="icon" type="image/x-icon" href="bildes/logo.png">
   </head>
   <body>
@@ -31,7 +31,7 @@
     <div class="bildes">
       <img src="bildes/bilde1.png" alt="Bilde1" style="max-width:400px;height:auto;">
       <img src="bildes/bilde2.png" alt="Bilde2" style="max-width:400px;height:auto;">
-      <img src="bildes/bilde3t.png" alt="Bilde3" style="max-width:400px;height:505px;">
+      <img src="bildes/bilde3t.png" alt="Bilde3" style="max-width:400px;height:auto;">
       <img src="bildes/bilde4.png" alt="Bilde4" style="max-width:400px;height:auto;">
       <img src="bildes/bilde5.png" alt="Bilde5" style="max-width:400px;height:auto;">
       <img src="bildes/bilde6t.png" alt="Bilde6" style="max-width:400px;height:auto;">
