@@ -305,3 +305,60 @@ body {
 	top: 20px;
 	opacity: 1;
 }
+
+
+@media (max-width: 1024px) {
+	.galvenais {
+		grid-template-columns: 1fr;
+		padding: 30px 5%;
+	}
+
+	.merch-card1,
+	.merch-card2,
+	.merch-card3,
+	.merch-card4,
+	.merch-card5,
+	.merch-card6,
+	.merch-card7,
+	.merch-card8 {
+		grid-column: 1 / 2;
+		grid-row: auto;
+		width: 100%;
+		max-width: 280px;
+		margin: 10px auto; 
+	}
+
+	.logo {
+		margin-right: 0;
+	}
+
+	.nav {
+		gap: 25px;
+	}
+}
+
+@media (max-width: 600px) {
+	body {
+		background-attachment: scroll;
+	}
+
+	.nav {
+		flex-direction: column;
+		gap: 15px;
+		margin: 15px;
+	}
+
+	.nav button {
+		width: 100%;
+		max-width: 260px;
+	}
+
+	.bildes {
+		grid-template-columns: 1fr;
+		padding: 20px 5%;
+	}
+
+	.teksts {
+		padding: 30px 5%;
+	}
+}
