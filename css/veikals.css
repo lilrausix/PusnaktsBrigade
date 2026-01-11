@@ -343,19 +343,26 @@ body {
 	}
 
 	.nav {
-		flex-direction: column;
-		gap: 15px;
-		margin: 15px;
-	}
+        flex-direction: column;
+        gap: 15px;
+        margin: 15px;
+        align-items: stretch;
+        margin-left: 150px;
+    }
+    .logo{
+        margin-left: 100px;
+    }
 
-	.nav button {
-		width: 100%;
-		max-width: 260px;
-	}
+    .nav button {
+        width: 100%;
+        max-width: 260px;
+        align-self: center;
+    }
 
 	.bildes {
 		grid-template-columns: 1fr;
 		padding: 20px 5%;
+		
 	}
 
 	.teksts {

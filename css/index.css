@@ -100,11 +100,17 @@ body {
         flex-direction: column;
         gap: 15px;
         margin: 15px;
+        align-items: stretch;
+        margin-left: 150px;
+    }
+    .logo{
+        margin-left: 100px;
     }
 
     .nav button {
         width: 100%;
         max-width: 260px;
+        align-self: center;
     }
 
     .bildes {
