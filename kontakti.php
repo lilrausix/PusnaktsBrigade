@@ -60,7 +60,7 @@
       </div>
       <div class="form-wrapper">
         <h2>Pieteikt pasākumu</h2>
-        <form action="save_event.php" method="POST">
+        <form action="kontakti.class.php" method="POST">
           <div class="input-box">
         <input type="email" name="email" placeholder="E-pasts" required>
           </div>
@@ -74,7 +74,7 @@
         <textarea class="ziņa" name="message" placeholder="Ziņa" required></textarea>
           </div>
           <div class="input-box button">
-        <input type="submit" value="Sūtīt ziņojumu">
+            <input type="submit" href="index.php" value="Sūtīt ziņojumu">
           </div>
         </form>
       </div>
